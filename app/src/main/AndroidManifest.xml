@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.godoc">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Godoc">
+
+        <activity android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Page_5login"/>
+        <activity android:name=".Page_6sign_up"
+            android:parentActivityName=".Page_5login"/>
+        <activity android:name=".Page_7find_account"
+            android:parentActivityName=".Page_5login"/>
+        <activity android:name=".Page_8main"/>
+        <activity android:name=".Page_9sub_choose"
+            android:parentActivityName=".Page_8main"/>
+        <activity android:name=".Page_10page_list"
+            android:parentActivityName=".Page_9sub_choose"/>
+        <activity android:name=".Page_11hos_info"
+            android:parentActivityName=".Page_10page_list"/>
+        <activity android:name=".Page_13hos_resv"
+            android:parentActivityName=".Page_11hos_info"/>
+        <activity android:name=".Page_14agree"
+            android:parentActivityName=".Page_13hos_resv"/>
+        <activity android:name=".Page_15resv_suc"/>
+        <activity android:name=".Page_16find_hos"
+            android:parentActivityName=".Page_8main"/>
+        <activity android:name=".Page_17resv_check"
+            android:parentActivityName=".Page_8main"/>
+        <activity android:name=".Page_18before_question"
+            android:parentActivityName=".Page_17resv_check"/>
+        <activity android:name=".Page_19mypage"
+            android:parentActivityName=".Page_8main"/>
+        <activity android:name=".Page_20last_treat"
+        android:parentActivityName=".Page_19mypage"/>
+        <activity android:name=".Page_21prescription"
+        android:parentActivityName=".Page_20last_treat"/>
+        <activity android:name=".Page_22hos_review"
+            android:parentActivityName=".Page_20last_treat"/>
+        <activity android:name=".Page_23payment"
+        android:parentActivityName=".Page_19mypage"/>
+        <activity android:name=".Page_24changepassword"
+        android:parentActivityName=".Page_20last_treat"/>
+        <activity android:name=".Page_25center"
+            android:parentActivityName=".Page_19mypage"/>
+        <activity android:name=".Page_26terms"
+            android:parentActivityName=".Page_25center"/>
+
+    </application>
+
+</manifest>

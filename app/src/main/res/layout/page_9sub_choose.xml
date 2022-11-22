@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/godoc_background"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="614dp"
+            android:fillViewport="false">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="584dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/shape_white_back">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <Button
+                                        android:id="@+id/button54321"
+                                        android:layout_width="80dp"
+                                        android:layout_height="80dp"
+                                        android:layout_gravity="center"
+                                        android:layout_marginTop="30dp"
+                                        android:background="@drawable/shape_for_circle_button"
+                                        android:text="내과"
+                                        android:textColor="#000000"
+                                        android:textSize="11sp"
+                                        app:backgroundTint="#1C99F7" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <Button
+                                        android:id="@+id/button1"
+                                        android:layout_width="80dp"
+                                        android:layout_height="80dp"
+                                        android:layout_gravity="center"
+                                        android:layout_marginTop="30dp"
+                                        android:background="@drawable/shape_for_circle_button"
+                                        android:text="비뇨기과"
+                                        android:textColor="#000000"
+                                        android:textSize="11sp"
+                                        app:backgroundTint="#1C99F7" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <Button
+                                        android:id="@+id/sign_btn"
+                                        android:layout_width="80dp"
+                                        android:layout_height="80dp"
+                                        android:layout_gravity="center"
+                                        android:layout_marginTop="30dp"
+                                        android:background="@drawable/shape_for_circle_button"
+                                        android:text="산부인과"
+                                        android:textColor="#000000"
+                                        android:textSize="11sp"
+                                        app:backgroundTint="#1C99F7" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <Button
+                                        android:id="@+id/hos_view_1"
+                                        android:layout_width="80dp"
+                                        android:layout_height="80dp"
+                                        android:layout_gravity="center"
+                                        android:layout_marginTop="30dp"
+                                        android:background="@drawable/shape_for_circle_button"
+                                        android:text="소아청소년과"
+                                        android:textColor="#000000"
+                                        android:textSize="11sp"
+                                        app:backgroundTint="#1C99F7" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <Button
+                                        android:id="@+id/button4"
+                                        android:layout_width="80dp"
+                                        android:layout_height="80dp"
+                                        android:layout_gravity="center"
+                                        android:layout_marginTop="30dp"
+                                        android:background="@drawable/shape_for_circle_button"
+                                        android:text="정형외과"
+                                        android:textColor="#000000"
+                                        android:textSize="11sp"
+                                        app:backgroundTint="#1C99F7" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <Button
+                                        android:id="@+id/button5"
+                                        android:layout_width="80dp"
+                                        android:layout_height="80dp"
+                                        android:layout_gravity="center"
+                                        android:layout_marginTop="30dp"
+                                        android:background="@drawable/shape_for_circle_button"
+                                        android:text="성형외과"
+                                        android:textColor="#000000"
+                                        android:textSize="11sp"
+                                        app:backgroundTint="#1C99F7" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <Button
+                                        android:id="@+id/button6"
+                                        android:layout_width="80dp"
+                                        android:layout_height="80dp"
+                                        android:layout_gravity="center"
+                                        android:layout_marginTop="30dp"
+                                        android:background="@drawable/shape_for_circle_button"
+                                        android:text="피부과"
+                                        android:textColor="#000000"
+                                        android:textSize="11sp"
+                                        app:backgroundTint="#1C99F7" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <Button
+                                        android:id="@+id/button7"
+                                        android:layout_width="80dp"
+                                        android:layout_height="80dp"
+                                        android:layout_gravity="center"
+                                        android:layout_marginTop="30dp"
+                                        android:background="@drawable/shape_for_circle_button"
+                                        android:text="이비인후과"
+                                        android:textColor="#000000"
+                                        android:textSize="11sp"
+                                        app:backgroundTint="#1C99F7" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <Button
+                                        android:id="@+id/button8"
+                                        android:layout_width="80dp"
+                                        android:layout_height="80dp"
+                                        android:layout_gravity="center"
+                                        android:layout_marginTop="30dp"
+                                        android:background="@drawable/shape_for_circle_button"
+                                        android:text="안과"
+                                        android:textColor="#000000"
+                                        android:textSize="11sp"
+                                        app:backgroundTint="#1C99F7" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <Button
+                                        android:id="@+id/button9"
+                                        android:layout_width="80dp"
+                                        android:layout_height="80dp"
+                                        android:layout_gravity="center"
+                                        android:layout_marginTop="30dp"
+                                        android:background="@drawable/shape_for_circle_button"
+                                        android:text="재활의학과"
+                                        android:textColor="#000000"
+                                        android:textSize="11sp"
+                                        app:backgroundTint="#1C99F7" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <Button
+                                        android:id="@+id/button10"
+                                        android:layout_width="80dp"
+                                        android:layout_height="80dp"
+                                        android:layout_gravity="center"
+                                        android:layout_marginTop="30dp"
+                                        android:background="@drawable/shape_for_circle_button"
+                                        android:text="응급실"
+                                        android:textColor="#000000"
+                                        android:textSize="11sp"
+                                        app:backgroundTint="#1C99F7" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <Button
+                                        android:id="@+id/button11"
+                                        android:layout_width="80dp"
+                                        android:layout_height="80dp"
+                                        android:layout_gravity="center"
+                                        android:layout_marginTop="30dp"
+                                        android:background="@drawable/shape_for_circle_button"
+                                        android:text="중환자실"
+                                        android:textColor="#000000"
+                                        android:textSize="11sp"
+                                        app:backgroundTint="#1C99F7" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <Button
+                                        android:id="@+id/button12"
+                                        android:layout_width="80dp"
+                                        android:layout_height="80dp"
+                                        android:layout_gravity="center"
+                                        android:layout_marginTop="30dp"
+                                        android:background="@drawable/shape_for_circle_button"
+                                        android:text="신속항원검사"
+                                        android:textColor="#000000"
+                                        android:textSize="11sp"
+                                        app:backgroundTint="#1C99F7" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <Button
+                                        android:id="@+id/button13"
+                                        android:layout_width="80dp"
+                                        android:layout_height="80dp"
+                                        android:layout_gravity="center"
+                                        android:layout_marginTop="30dp"
+                                        android:background="@drawable/shape_for_circle_button"
+                                        android:text="PCR 검사"
+                                        android:textColor="#000000"
+                                        android:textSize="11sp"
+                                        app:backgroundTint="#1C99F7" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <Button
+                                        android:id="@+id/button14"
+                                        android:layout_width="80dp"
+                                        android:layout_height="80dp"
+                                        android:layout_gravity="center"
+                                        android:layout_marginTop="30dp"
+                                        android:background="@drawable/shape_for_circle_button"
+                                        android:text="코로나"
+                                        android:textColor="#000000"
+                                        android:textSize="11sp"
+                                        app:backgroundTint="#1C99F7" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <Button
+                                        android:id="@+id/button15"
+                                        android:layout_width="80dp"
+                                        android:layout_height="80dp"
+                                        android:layout_gravity="center"
+                                        android:layout_marginTop="30dp"
+                                        android:background="@drawable/shape_for_circle_button"
+                                        android:text="야간진료"
+                                        android:textColor="#000000"
+                                        android:textSize="11sp"
+                                        app:backgroundTint="#1C99F7" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+        <ImageView
+            android:id="@+id/banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/banner01" />
+
+    </LinearLayout>
+</LinearLayout>
